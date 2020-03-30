@@ -1,0 +1,50 @@
+==================NODE JS==================
+
+PROGRAMAS {
+    Visual Studio Code
+    NodeJS
+    Insomnia
+    nodemon {
+        Instalar dentro da aplicação: $ npm install nodemon -D
+        O parâmetro -D vai fazer a aplicação salvar o pacote nas dependencias de dev. Isso garante que quando o app for online ele não vai utilizar mais o nodemon
+        OBS: Fazer esta edição no package.json: "scripts" : { "start": "nodemon index.js" }
+    }
+    KNEX.JS {
+        Após instalar, executar: $ npx knex init
+        Configurar um local para as migrations e executar este comando para criar uma migrate: $ npx knex migrate:make <nome_migration>
+        Rodar a migrate: $ npx knex migrate:latest
+    }
+    CORS { $ npm install cors }  # Permite dizer quem pode acessar a API
+}
+
+1. Iniciar projeto node:
+$ npm init -y
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Framework para dar uma startup:
+$ npm install express
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Rodar o app:
+$ node index.js
+OBS: Criar index.js
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/**
+ * Rota/Recurso -> /users
+*/
+
+/**
+ * Métodos HTTP:
+ * 
+ * GET: Buscar uma informação do back-end
+ * POST: Criar uma informação no back-end
+ * PUT: Alterar uma informação no back-end
+ * DELETE: Deleter uma informação no back-end
+ */
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+==================NODE JS==================
